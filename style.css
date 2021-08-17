@@ -1,0 +1,56 @@
+body {
+  background-image: url(background.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+}
+
+.contenitore {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+img {width: 32%;}
+
+h1 {color: lime;
+    line-height: 20px;}
+
+header, nav {text-align: center;}
+
+nav {background-color: lime;
+    padding: 10px;}
+
+main {padding-top: 10px;
+      padding-bottom: 10px;}
+
+.monopattini .attivi {
+  padding-top: 10px;
+}
+
+h3 {display: inline-block;
+    line-height: 5px;}
+
+span {
+  display: inline-block;
+  border-radius: 5px;}
+
+#carica-orange {
+  width: 40%;
+  height: 25px;
+  background-color: orange;}
+
+#carica-green {
+  width: 60%;
+  height: 25px;
+  background-color: lime;}
+
+#carica-red {
+  width: 20%;
+  height: 25px;
+  background-color: red;}
